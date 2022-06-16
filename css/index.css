@@ -1,0 +1,188 @@
+@import url(common.css);
+@import url(header.css);
+@import url(footer.css);
+
+/****************************************************************
+                          section
+****************************************************************/
+
+/*-------------------visual------------------------------------*/
+section{
+  width:100%;
+  text-align:center;
+  margin:0 auto;
+  display:flex;
+  justify-content:center;
+  flex-direction:column;
+}
+
+#visual{
+  width:100%;
+  max-width:1333px;
+  height:600px;
+  margin-top:70px;
+}
+
+#mainContentMenu{
+  width:100%;
+  margin:0 auto;
+}
+#mainContentMenu .contentMenuArea{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  width:95%;
+  max-width:800px;
+  box-shadow:0px 0px 20px rgba(0,0,0,0.2);
+  margin:0 auto;
+  border-radius:15px;
+}
+
+#mainContentMenu ul{
+  width:100%;
+  display:flex;
+  align-items:center;
+  justify-content:space-around;
+}
+#mainContentMenu ul li{
+  width:23%;
+  display:flex;
+  align-items: center;
+  flex-direction:column;
+  cursor:pointer;
+  padding:5px;
+}
+#mainContentMenu ul li div img{width:80%;}
+
+
+
+
+#mainText{
+  width:100%;
+  margin: 20px auto 0;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+
+#mainText h2{
+  font-size:24px;
+  font-size:1.5em;
+  color:555555;
+  font-weight:700;
+  margin: 30px auto;
+}
+#mainText ul{
+  width:80%;
+  margin:0 auto;
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+}
+#mainText ul li{
+  display:flex;
+  width:100%;
+  justify-content:center;
+  align-items:center;
+  border-bottom:1px dotted #555555;
+  margin:0 10px;
+}
+#mainText h3{
+  width:100%;
+  text-align: right;
+  padding-right:20%;
+}
+#mainText h3>span{
+  border-bottom:1px solid #555;
+  padding:3px;
+  cursor:pointer;
+}
+#mainText ul li p{
+  font-size:20px;
+  font-size:1.13rem;
+  color:#555555;
+  padding:15px 0 15px 10px;
+  cursor:pointer;
+}
+#mainText ul li p:first-child{
+  width:50%;
+  text-align:left;
+  
+}
+#mainText ul li p:last-child{
+  width:50%;
+  text-align:right;
+  padding-right:10px;
+}
+
+#subContentMenu{margin:30px 0px;}
+#subContentMenu ul{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  width:95%;
+  max-width:800px;
+  margin:0 auto;
+}
+
+#subContentMenu ul li{
+  display:flex;
+  justify-content:center;
+  flex-direction:column;
+  align-items:center;
+  width:45%;
+  height:auto;
+  border-radius:15px;
+  box-shadow:0px 0px 20px rgba(0,0,0,0.2);
+  margin:0 25px;
+  cursor:pointer;
+}
+.subContentIcons img{width:95%; min-width:85%;}
+#subContentMenu ul li p{
+  margin:5px 20px;
+  color:#555;
+}
+#subContentMenu ul li p:last-child{
+  font-size:18px;
+  font-size:1.13rem;
+  font-weight:bold;
+}
+
+/*Tablet*/
+/* 
+@media (min-width:768px) and (max-width:1336px){
+  body{height:auto;}
+  
+  #mainContentMenu{
+    width:100%;
+    margin:0 auto;
+    max-width:100%;
+  }
+  #mainContentMenu .contentMenuArea{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:80%;
+    height:130px;
+    box-shadow:0px 0px 20px rgba(0,0,0,0.2);
+    margin:0 auto;
+    border-radius:15px;
+  }
+
+  #mainContentMenu ul{
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+  }
+  #mainContentMenu ul li{
+    width:100px;
+    display:flex;
+    align-items: center;
+    flex-direction:column;
+    cursor:pointer;
+}
+
+}*/
